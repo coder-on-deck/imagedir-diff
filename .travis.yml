@@ -1,6 +1,4 @@
 language: node_js
 notifications:
-  webhooks:
-    urls:
-      - https://hooks.slack.com/services/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
-  
+  slack:
+    secure: VD3BHN4vjTn5DY4sVzO3+XziRo9YselYs3nxZjodVruZV3Np/OSXAK7pfJH1249OgI6tvWNfHwahOttUuvq7Z/oRWNTUAMR0cojbzMhqGlldEj7VTDLaIG5wZG98g+kx40PwUXMEXWsqXUsCmnkVNjrQqqjV1aJ2cEa8LEdFW1DIH5wVcpKAM46NLTvknjFK9FBaYenrgwrpMokSUplCO8Up3UVS+ScYBnldYvCVlz/40kjFtU6Sicx/eS517CmaWM0xlozrvuSSMvBFUN4qeEy1cLlVY33mY4CUMttLar2FzWbMF+yG++UzFdO1jiO8ovlH6vApCPp5TqYaV+Wsgcef6kjl+wgxTTADKBikJHal675Ep7oogeHe/5/nQaaK7zmk2Y6hGQHx76iYjfRzvqUDn1U/PyWQ4AyOTn+hkrdD80zBJSnM2KLEvV99ycXHWJxasuxaeV1K7EfA2BkUMmFTdC8wPwPTf3pA2oyNu0F+yVLPKdvFZJtfJN4OTLDW1iGj169oazMIo25NhOGYcv1fI99yfanS36jd+ZGAR1sPR5cIEQ1VGYUUBzjp7S/pkYKacNf6ucoNvGflqqOD5rnGhQGUc5a2B7P7FiW909v/K6UN13uMRwILhVbOb/kURSi4BiJ5rhUYiLWupXMOusOCqniGNk9dTpgbemSHtQc=
