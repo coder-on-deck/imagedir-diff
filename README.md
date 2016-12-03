@@ -3,6 +3,8 @@
 > A library that compares between screenshots and their baselines and outputs their diff. 
 > Operates on entire directory
 
+[![Build Status](https://travis-ci.org/coder-on-deck/imagedir-diff.svg?branch=master)](https://travis-ci.org/coder-on-deck/imagedir-diff)
+
 # Assumptions 
 
 The test reads each image in the baselines directory and finds the correlating one in screenshots.   
