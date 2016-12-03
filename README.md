@@ -16,13 +16,13 @@ If you have a baseline without a screenshot, it will fail.
 
 # Command Line Usage 
 
-```
+```bash
 imagedir-diff --screenshots tests/images/screenshots --baselines tests/images/baselines --diffs tests/images/diffs
 ```
 
 Will print all passed images and all failed images. For example:
 
-```
+```json
 {
   "passed": [
     "download.png",
@@ -37,7 +37,7 @@ Will exit with code 0 if all passed. Otherwise with exit code 1
 
 # Library Usage
 
-```
+```javascript
 var imagedirDiff = require('imagedir-diff');
 imagedirDiff( {
     diffs: 'tests/images/diffs',
