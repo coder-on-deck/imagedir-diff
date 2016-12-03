@@ -1,0 +1,21 @@
+{
+  "name": "imagedir-diff",
+  "version": "0.0.0",
+  "dependencies": {
+    "async": "^2.1.4",
+    "blink-diff": "^1.0.13",
+    "fs-extra": "^1.0.0",
+    "minimist": "^1.2.0"
+  },
+  "bin": "cli.js",
+  "scripts": {
+    "test": "npm-run-all lint test:cli",
+    "test:cli": "./cli.js",
+    "lint": "standard",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "devDependencies": {
+    "npm-run-all": "^3.1.2",
+    "standard": "^8.6.0"
+  }
+}
