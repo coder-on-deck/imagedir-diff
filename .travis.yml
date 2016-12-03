@@ -1,0 +1,6 @@
+language: node_js
+notifications:
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/a7b8ddfd24d25e99ee5c
+  
