@@ -1,6 +1,6 @@
 {
   "name": "imagedir-diff",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "async": "^2.1.4",
     "blink-diff": "^1.0.13",
