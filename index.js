@@ -48,7 +48,7 @@ function compareImage (filename, results, opts) {
         if (diff.hasPassed(result.code)) {
           results.passed.push(filename)
         } else {
-          results.failed.path(filename)
+          results.failed.push(filename)
         }
       }
       callback()

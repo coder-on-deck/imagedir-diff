@@ -4,6 +4,7 @@
 > Operates on entire directory
 
 [![Build Status](https://travis-ci.org/coder-on-deck/imagedir-diff.svg?branch=master)](https://travis-ci.org/coder-on-deck/imagedir-diff)
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 # Assumptions 
 
